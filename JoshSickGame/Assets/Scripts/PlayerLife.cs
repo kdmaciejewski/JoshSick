@@ -10,7 +10,7 @@ public class PlayerLife : MonoBehaviour
     private Rigidbody2D rb;
     [SerializeField] private AudioSource deathSound;
     [SerializeField] private TMP_Text zycia;
-    private static int LifeCounter = 3;
+    public static int LifeCounter = 3;
 
     private void Start()
     {   
@@ -25,7 +25,7 @@ public class PlayerLife : MonoBehaviour
         }
     }
 
-    private void Die(){
+    public void Die(){
         LifeCounter = LifeCounter - 1;
 
         if(LifeCounter == 0){

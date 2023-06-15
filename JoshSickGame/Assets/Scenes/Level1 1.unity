@@ -885,6 +885,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2261237411513047948, guid: ccb03ea6b78ed6f47b5c61f35928ccc6, type: 3}
   m_PrefabInstance: {fileID: 2261237411080989884}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &508447594 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7438134944229951272, guid: 2d63ccd6fc109084fb04d34a55b3f3a0, type: 3}
+  m_PrefabInstance: {fileID: 7438134944950461371}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1538,13 +1543,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: 38a49d048b68b2547bb00dc467d45cd1, type: 2}
   m_audioClip: {fileID: 8300000, guid: cbc029e86a07e0b4985c81449155df29, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.729
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 79
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -19019,6 +19024,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7438134944229951279, guid: 2d63ccd6fc109084fb04d34a55b3f3a0, type: 3}
   m_PrefabInstance: {fileID: 7438134944950461371}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1997415573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508447594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d551090f01fae5b4192758bf5232c00f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 325044119760311724, guid: 6ece004e85f1aa34e8d8719ef2c3ede5, type: 3}
+  bulletPos: {fileID: 1997415572}
+  player: {fileID: 0}
 --- !u!4 &2000133008 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2261237411513047948, guid: ccb03ea6b78ed6f47b5c61f35928ccc6, type: 3}
@@ -19553,6 +19573,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8763311078310971142, guid: 87f9ca8912b7ef34e8a4dd0e6f1faaf4, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8763311078310971144, guid: 87f9ca8912b7ef34e8a4dd0e6f1faaf4, type: 3}
+      propertyPath: m_Volume
+      value: 0.633
+      objectReference: {fileID: 0}
+    - target: {fileID: 8763311078310971145, guid: 87f9ca8912b7ef34e8a4dd0e6f1faaf4, type: 3}
+      propertyPath: m_Volume
+      value: 0.915
+      objectReference: {fileID: 0}
+    - target: {fileID: 8763311078310971145, guid: 87f9ca8912b7ef34e8a4dd0e6f1faaf4, type: 3}
+      propertyPath: MinDistance
+      value: 0.6505556
+      objectReference: {fileID: 0}
     - target: {fileID: 8763311078310971149, guid: 87f9ca8912b7ef34e8a4dd0e6f1faaf4, type: 3}
       propertyPath: wisienki
       value: 
@@ -19561,5 +19597,9 @@ PrefabInstance:
       propertyPath: zycia
       value: 
       objectReference: {fileID: 1090363422}
+    - target: {fileID: 8763311078310971151, guid: 87f9ca8912b7ef34e8a4dd0e6f1faaf4, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: fe47601eeecd47146868d974875321fa, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87f9ca8912b7ef34e8a4dd0e6f1faaf4, type: 3}
