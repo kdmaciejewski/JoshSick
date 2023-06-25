@@ -1857,6 +1857,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &856088525 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6222065264214852535, guid: 87f9ca8912b7ef34e8a4dd0e6f1faaf4, type: 3}
+  m_PrefabInstance: {fileID: 8763311077649952900}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &951303264
 GameObject:
   m_ObjectHideFlags: 0
@@ -2818,6 +2823,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2261237411513047948, guid: ccb03ea6b78ed6f47b5c61f35928ccc6, type: 3}
   m_PrefabInstance: {fileID: 89399878}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1641313847 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5500256309872323590, guid: 87f9ca8912b7ef34e8a4dd0e6f1faaf4, type: 3}
+  m_PrefabInstance: {fileID: 8763311077649952900}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1646596407
 GameObject:
@@ -20292,6 +20302,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3850913829629479275, guid: 87f9ca8912b7ef34e8a4dd0e6f1faaf4, type: 3}
+      propertyPath: firePoint
+      value: 
+      objectReference: {fileID: 856088525}
+    - target: {fileID: 3850913829629479275, guid: 87f9ca8912b7ef34e8a4dd0e6f1faaf4, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 325044119760311724, guid: 2a46c004d16cbbd479fbcbc19cf36c20, type: 3}
+    - target: {fileID: 3850913829629479275, guid: 87f9ca8912b7ef34e8a4dd0e6f1faaf4, type: 3}
+      propertyPath: bulletReleaseSound
+      value: 
+      objectReference: {fileID: 1641313847}
+    - target: {fileID: 6222065264214852535, guid: 87f9ca8912b7ef34e8a4dd0e6f1faaf4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 6222065264214852535, guid: 87f9ca8912b7ef34e8a4dd0e6f1faaf4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.51
+      objectReference: {fileID: 0}
     - target: {fileID: 8763311078310971137, guid: 87f9ca8912b7ef34e8a4dd0e6f1faaf4, type: 3}
       propertyPath: m_RootOrder
       value: 4
